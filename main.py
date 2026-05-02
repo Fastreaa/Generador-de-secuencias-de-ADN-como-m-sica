@@ -5,7 +5,7 @@ from machine import PWM, Pin
 
 SSID     = ""
 PASSWORD = ""
-GENE_ID  = "NM_000207"#Insulina humana
+GENE_ID  = "NM_000207"
 
 SCALE = [
     131, 147, 165, 175, 196, 220, 247,  # Do3..Si3
@@ -14,10 +14,10 @@ SCALE = [
 ]
 
 DURATIONS = {
-    'A': 300,   # negra       (larga)
-    'T': 150,   # corchea     (media)
-    'G': 75,    # semicorchea (corta)
-    'C': 225,   # negra con punto
+    'A': 300,   
+    'T': 150,   
+    'G': 75,    
+    'C': 225,   
 }
 
 STOP_CODONS = {'TAA', 'TAG', 'TGA'}
